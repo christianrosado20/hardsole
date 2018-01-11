@@ -1,0 +1,63 @@
+body{
+  font-family: 'Ranga', cursive;
+
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.jumbotron{
+  padding: 20%;
+  text-align: center;
+  /* margin: auto; */
+  background-image: url("https://images.unsplash.com/photo-1456894332557-b03dc5cf60d5?auto=format&fit=crop&w=2089&q=80");
+  background-image: blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: blur(3px); */
+  color: white;
+}
+
+.navbar-brand{
+  letter-spacing: 2px;
+}
+
+.description {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+}
+
+.description h1 {
+  padding-bottom: 3%;
+}
+
+.shoes-section {
+  padding-bottom: 15%;
+}
+
+.shoes-section h1{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.card {
+  margin: auto;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.footer {
+  padding: 5%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
